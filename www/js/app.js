@@ -21,6 +21,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   });
 })
+.run(function(){
+    Pro.init('a7c5d642', {
+        appVersion: 'APP_VERSION'
+    });
+})
 
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
