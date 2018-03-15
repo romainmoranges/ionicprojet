@@ -77,11 +77,11 @@ angular.module('starter.controllers', [])
       console.log("j'ai cliqué");
 
       window.plugins.Flashlight.toggle();
-        // function() {}, // optional success callback
-        // function() {}, // optional error callback
-        // {
-        //   intensity: 0.3
-        // } // optional as well, used on iOS when switching on
-      // );
+        function() {}, // optional success callback
+        function() {}, // optional error callback
+        {
+          intensity: 0.3
+        } // optional as well, used on iOS when switching on
+      );
     }
   })
