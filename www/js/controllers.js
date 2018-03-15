@@ -76,7 +76,7 @@ angular.module('starter.controllers', [])
     $scope.Auclic = function() {
       console.log("j'ai cliqué");
 
-      window.plugins.flashlight.toggle();
+      window.plugins.Flashlight.toggle();
         // function() {}, // optional success callback
         // function() {}, // optional error callback
         // {
