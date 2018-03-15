@@ -21,7 +21,7 @@
       "cordova-plugin-ionic": {
         "APP_ID": "a7c5d642",
         "CHANNEL_NAME": "master",
-        "UPDATE_METHOD": "background|auto|none",
+        "UPDATE_METHOD": "background",
         "MAX_STORE": "2"
       }
     }
