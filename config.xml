@@ -88,4 +88,5 @@
         <variable name="UPDATE_METHOD" value="background" />
         <variable name="MAX_STORE" value="2" />
     </plugin>
+    <plugin name="cordova-plugin-vibration" spec="^3.0.1" />
 </widget>

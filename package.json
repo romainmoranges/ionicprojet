@@ -13,7 +13,8 @@
     "@ionic-native/flashlight": "^4.5.3",
     "@ionic/pro": "^1.0.20",
     "cordova-plugin-flashlight": "^3.2.0",
-    "cordova-plugin-ionic": "^4.0.0"
+    "cordova-plugin-ionic": "^4.0.0",
+    "cordova-plugin-vibration": "^3.0.1"
   },
   "cordova": {
     "plugins": {
@@ -23,7 +24,8 @@
         "CHANNEL_NAME": "master",
         "UPDATE_METHOD": "background",
         "MAX_STORE": "2"
-      }
+      },
+      "cordova-plugin-vibration": {}
     }
   }
 }

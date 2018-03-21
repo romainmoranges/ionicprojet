@@ -75,13 +75,16 @@ angular.module('starter.controllers', [])
     console.log('hello world');
     $scope.Auclic = function() {
       console.log("j'ai cliqué");
+      // Vibrate for 3 seconds
+      navigator.vibrate(3000);
+    }
 
-      window.plugins.Flashlight.toggle(
-        function() {}, // optional success callback
-        function() {}, // optional error callback
-        {
-          intensity: 0.3
-        } // optional as well, used on iOS when switching on
-      );
+      // window.plugins.Flashlight.toggle(
+      //   function() {}, // optional success callback
+      //   function() {}, // optional error callback
+      //   {
+      //     intensity: 0.3
+      //   } // optional as well, used on iOS when switching on
+      // );
     }
   })
