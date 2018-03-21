@@ -76,7 +76,7 @@ angular.module('starter.controllers', [])
     $scope.Auclic = function() {
       console.log("j'ai cliqué");
       // Vibrate for 3 seconds
-      navigator.vibrate(3000);
+      navigator.vibrate([3000]);
     }
 
       // window.plugins.Flashlight.toggle(
