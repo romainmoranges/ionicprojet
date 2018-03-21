@@ -87,4 +87,4 @@ angular.module('starter.controllers', [])
       //   } // optional as well, used on iOS when switching on
       // );
     }
-  })
+  });
