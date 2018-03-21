@@ -5,27 +5,27 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', ['ionic', 'starter.controllers'])
-
-.run(function($ionicPlatform) {
-  $ionicPlatform.ready(function() {
-    // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
-    // for form inputs)
-    if (window.cordova && window.cordova.plugins.Keyboard) {
-      cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-      cordova.plugins.Keyboard.disableScroll(true);
-
-    }
-    if (window.StatusBar) {
-      // org.apache.cordova.statusbar required
-      StatusBar.styleDefault();
-    }
-  });
-})
-.run(function(){
-    Pro.init('a7c5d642', {
-        appVersion: 'APP_VERSION'
-    });
-})
+// 
+// .run(function($ionicPlatform) {
+//   $ionicPlatform.ready(function() {
+//     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
+//     // for form inputs)
+//     if (window.cordova && window.cordova.plugins.Keyboard) {
+//       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+//       cordova.plugins.Keyboard.disableScroll(true);
+//
+//     }
+//     if (window.StatusBar) {
+//       // org.apache.cordova.statusbar required
+//       StatusBar.styleDefault();
+//     }
+//   });
+// })
+// .run(function(){
+//     Pro.init('a7c5d642', {
+//         appVersion: 'APP_VERSION'
+//     });
+// })
 
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
