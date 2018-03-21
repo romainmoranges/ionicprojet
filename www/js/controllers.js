@@ -86,5 +86,4 @@ angular.module('starter.controllers', [])
       //     intensity: 0.3
       //   } // optional as well, used on iOS when switching on
       // );
-    }
-  });
+    });
